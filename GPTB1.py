@@ -2,9 +2,8 @@ import streamlit as st
 
 st.title('Giải phương trình bậc nhất')
 
-st.balloons
-st.cats
-st.snow
+st.balloons()
+st.snow()
 number1 = st.number_input('Tham số a')
 number2 = st.number_input('Tham số b')
 
